@@ -1,0 +1,22 @@
+header, nav, article, aside, footer, main{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+header, nav, footer{
+    flex: 0 0 100%;
+}
+
+article{
+    flex: 0 0 60%;
+}
+
+aside{
+    flex: 1 0 40%;
+}
